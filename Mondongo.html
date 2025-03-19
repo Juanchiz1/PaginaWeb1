@@ -1,19 +1,153 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <nav>
-        <a href="PagPrincipal.html">Inicio</a> |
-        <a href="Contacto.html">Contacto</a>
-    </nav>
-    <title>7.Mondongo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondongo - Gastronomía Colombiana</title>
 </head>
 <body>
-    <h1>Mondongo</h1>
-    <div style="text-align: center; max-width: 800px; margin: 0 auto;"></div>
-        <p>Se dice que el origen de esta preparación está en el “mote pelado” de Perú. Con el tiempo y la llegada de los españoles, el plato evolucionó hasta convertirse en lo que es hoy.
 
-            El ingrediente principal es la panza o estómago de vaca, cortado en cuadritos, de ahí su nombre. En algunos lugares, se le añade carne y costilla de cerdo. Se incorpora papa criolla, capira, zanahoria, arveja y yuca. El plato se acompaña con “hogao”, una mezcla de cebolla y tomate sofritos que realza su sabor.</p>
-    </div>
-    <img src="Mondongo.png" alt="Mondongo" style="width: 100%; max-width: 600px;">
+   
+    <header>
+        <nav>
+            <a href="PagPrincipal.html">Inicio</a> |
+            <a href="Contacto.html">Contacto</a>
+        </nav>
+        <hr>
+    </header>
+
+    
+    <h1 style="text-align: center;">Mondongo</h1>
+
+   
+    <figure style="text-align: center;">
+        <img src="Mondongo.png" alt="Mondongo" style="width: 100%; max-width: 600px;">
+        <figcaption>Un delicioso plato de mondongo servido con arroz y aguacate.</figcaption>
+    </figure>
+
+   
+    <section>
+        <p>El mondongo es uno de los platos más tradicionales y populares de la gastronomía colombiana. Su historia y preparación lo convierten en un ícono de la cocina criolla.</p>
+        <blockquote>
+            "Un buen mondongo es sinónimo de hogar y tradición en Colombia."
+        </blockquote>
+    </section>
+
+    
+    <section>
+        <h2>Origen e Historia</h2>
+        <p>Se dice que el origen de esta preparación está en el <strong>“mote pelado”</strong> de Perú. Con el tiempo y la llegada de los españoles, el plato evolucionó hasta convertirse en lo que es hoy.</p>
+        <p>El ingrediente principal es la <strong>panza o estómago de vaca</strong>, cortado en cuadritos, de ahí su nombre. En algunos lugares, se le añade carne y costilla de cerdo.</p>
+    </section>
+
+    <hr>
+
+   
+    <section>
+        <h2>Ingredientes del Mondongo</h2>
+        <ul>
+            <li>Panza de res (mondongo), bien lavado y troceado.</li>
+            <li>Costilla de cerdo (opcional).</li>
+            <li>Papa criolla y papa capira.</li>
+            <li>Zanahoria, arvejas y yuca.</li>
+            <li>Hogao (mezcla de cebolla y tomate sofritos).</li>
+            <li>Sal, comino y ajo al gusto.</li>
+        </ul>
+    </section>
+
+    <hr>
+
+   
+    <section>
+        <h2>Cómo Preparar el Mondongo</h2>
+        <ol>
+            <li>Lava muy bien la panza de res con agua y limón.</li>
+            <li>Corta la panza en pequeños cubos y ponla a cocinar en una olla con suficiente agua.</li>
+            <li>Añade la costilla de cerdo y deja cocinar hasta que esté tierna.</li>
+            <li>Incorpora la papa criolla, la zanahoria, la yuca y las arvejas.</li>
+            <li>Prepara el hogao aparte y agrégalo a la olla para darle sabor.</li>
+            <li>Deja cocinar a fuego medio por unos 40 minutos más.</li>
+            <li>Sirve caliente acompañado de arroz, aguacate y arepa.</li>
+        </ol>
+    </section>
+
+    <hr>
+
+    
+    <section>
+        <h2>Curiosidades del Mondongo</h2>
+        <table border="1">
+            <tr>
+                <th>Dato</th>
+                <th>Descripción</th>
+            </tr>
+            <tr>
+                <td>Región</td>
+                <td>Preparado en toda Colombia, con variaciones en cada región.</td>
+            </tr>
+            <tr>
+                <td>Acompañantes</td>
+                <td>Se suele servir con arroz, aguacate y arepa.</td>
+            </tr>
+            <tr>
+                <td>Sabor</td>
+                <td>Una mezcla entre lo cremoso de las papas y el sabor fuerte del mondongo.</td>
+            </tr>
+            <tr>
+                <td>Popularidad</td>
+                <td>Es uno de los platos más vendidos en restaurantes típicos colombianos.</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+   
+    <section>
+        <h2>¿Te gusta el Mondongo?</h2>
+        <form action="/submit" method="post">
+            <label for="opinion">¿Cómo calificarías este plato?</label><br>
+            <input type="radio" id="excelente" name="opinion" value="excelente">
+            <label for="excelente">Excelente</label><br>
+
+            <input type="radio" id="bueno" name="opinion" value="bueno">
+            <label for="bueno">Bueno</label><br>
+
+            <input type="radio" id="regular" name="opinion" value="regular">
+            <label for="regular">Regular</label><br>
+
+            <input type="radio" id="malo" name="opinion" value="malo">
+            <label for="malo">Malo</label><br>
+
+            <br>
+            <label for="comentario">Déjanos tu comentario:</label><br>
+            <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Aprende a Preparar Mondongo</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=rnAVghgjPd4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <hr>
+
+   
+    <footer>
+        <h2>Contacto</h2>
+        <p>Para más información, escríbenos a <a href="mailto:contacto@gastroapasionados.com">contacto@gastroapasionados.com</a></p>
+        <p>Síguenos en nuestras redes sociales:</p>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+        <p>&copy; 2025 GastroApasionados - Todos los derechos reservados.</p>
+    </footer>
+
 </body>
 </html>
